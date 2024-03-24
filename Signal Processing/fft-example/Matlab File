@@ -1,0 +1,22 @@
+clear all;
+close all;
+
+%% Signal
+N = 8;
+fs = 2*N;
+
+for i=1:N
+    x(i) = sin(2 * pi .*i / N) + 0.5i * sin(4 * pi .* i / N);
+end
+
+X = fft(x,N);
+
+Xshifted = fftshift(X);
+
+xifftshifted = ifftshift(Xshifted);
+
+xifft = ifft(Xshifted, N);
+
+f = linspace(-N/2,N/2,length(X));
+
+plot(f,X);
