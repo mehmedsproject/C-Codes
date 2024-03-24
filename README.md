@@ -1,6 +1,6 @@
-# C-Codes
-  C Codes
-- C codes for multiple purposes
-- Custom C libraries,
-- A variety of C code pieces
+# C/C++ Codes
+  C/C++ Codes
+- C/C++ codes for multiple purposes
+- Custom C/C++ libraries,
+- A variety of C/C++ code pieces
 and more...
